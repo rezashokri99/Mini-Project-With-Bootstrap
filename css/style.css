@@ -13,14 +13,44 @@ body{
     font-family: vazir !important;
 }
 
+/* build class hover on menu */
 .navbar-nav a:hover{
     color: #0d6efd !important;
 }
 
+/* build icon carts */
 .icon {
     color: rgb(13, 110, 253);
     background-color: rgb(235, 234, 251);
     display: inline-flex;
     padding: 15px;
     border-radius: 15px;
+}
+
+/* build class card-primary for section3 */
+.card-primary {
+    color: white !important;
+    background: rgb(27, 42, 78);
+}
+
+/* build class bg-blue for section4 */
+.bg-blue {
+    background-color: #1b2a4e;
+}
+
+/* class for footer link(<a> tag) */
+.footer-link {
+    text-decoration: none;
+    color: #000;
+}
+
+/* class for footer header border bottom */
+.footer-header {
+    border-bottom: 3px solid;
+    height: 35px;
+}
+
+/* for footer link when hover */
+.footer-link:hover {
+    color: #000;
 }
